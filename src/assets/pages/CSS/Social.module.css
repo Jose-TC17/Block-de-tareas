@@ -1,0 +1,46 @@
+.containerSocial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.btnGoogle, .btnGitHub {
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.btnGoogle:hover, .btnGitHub:hover {
+    background: #e4e3e3;
+}
+
+.btnGoogle, .btnGitHub {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+}
+
+.imgGoogle {
+    width: 25px;
+}
+
+.imgGitHub {
+    width: 37px;
+}
+
+.pGoogle, .pGitHub {
+    font-family: system-ui;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+}

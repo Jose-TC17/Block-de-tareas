@@ -1,0 +1,45 @@
+.cardNote {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #182936;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.459);
+    font-family: system-ui;
+}
+
+.fechHour {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #7f8891;
+}
+
+.notes {
+    width: 100%;
+    min-height: 70px;
+    background: #1d2f3f;
+    padding: 10px;
+    color: #7f8891;
+    border-radius: 10px;
+}
+
+.containerIcons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img {
+    width: 22px;
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(58%) sepia(3%) saturate(1191%) hue-rotate(174deg) brightness(91%) contrast(94%);
+}

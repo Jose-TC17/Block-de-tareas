@@ -1,0 +1,17 @@
+/* container */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background:  radial-gradient(circle at 76% 50% , #393d50, #23283b, #181c25, #181c25);
+    animation: animate-bg 6s infinite ease-in-out;
+}
+
+.container.register{
+    flex-direction: row-reverse;
+    background:  radial-gradient(circle at 25% 50% , #393d50, #23283b, #181c25, #181c25);
+}

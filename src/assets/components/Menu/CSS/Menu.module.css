@@ -1,0 +1,89 @@
+/* estilos del menu */
+.menu {
+    width: 250px;
+    height: 100vh;
+    background: #f8f8f8;
+    box-shadow: 0 0 4px rgb(78, 78, 78);
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: .3s;
+    overflow: hidden;
+    overflow-Y: scroll;
+    z-index: 1;
+}
+
+.menu::-webkit-scrollbar{
+    width: 0;
+}
+
+.menu::-webkit-scrollbar-thumb{
+    background: transparent;
+    border-radius: 5px;
+    background-clip: content-box;
+    border: 2px solid transparent;
+    transition: .3s;
+}
+
+.menu:hover::-webkit-scrollbar-thumb{
+    width: 13px;
+    background: rgb(194, 194, 194);
+    background-clip: content-box;
+    border: 2px solid transparent;
+}
+
+.menu.active.dark, .menu.dark{
+    background: #182936;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.507);
+}
+
+/* menu activado */
+.menu.active {
+    left: 0;
+}
+
+/* contenedor del boton */
+.secBtnT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* estilos del boton */
+.btnNewTask {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: calc(250px - 30%);
+    height: 40px;
+    background: rgb(46, 121, 206);
+    font-family: system-ui;
+    font-family: 400;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    gap: 10px;
+    transition: .3s;
+}
+
+.btnNewTask:hover {
+    background: rgb(47, 136, 236);
+}
+
+.imgPlus {
+    width: 25px;
+    color: #fff;
+}
+
+/* estilos del ul */
+.ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    gap: 20px;
+}

@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    /* position: relative; */
+    min-height: 105vh;
+    background: #ffffff;
+    margin-top: 60px;
+    margin-left: 0;
+    transition: .3s;
+    z-index: -1;
+}
+
+.container.active {
+    width: calc(100% - 250px);
+    margin-left: 250px;
+}
+
+.container.active.dark, .container.dark {
+    background: #172b3b;
+}

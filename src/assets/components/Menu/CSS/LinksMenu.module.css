@@ -1,0 +1,66 @@
+/* estilos de los li */
+.li {
+    display: block;
+    width: 90%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+/* estilos del link */
+.link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: system-ui;
+    font-weight: 500;
+    justify-content: start;
+    text-decoration: none;
+    color: #000;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    gap: 10px;
+    transition: .3s;
+}
+
+.link.Page {
+    color: #2975ee;
+    background: #eeecec;
+}
+
+.link.Page.dark {
+    color: #2975ee;
+    background: rgb(37, 53, 75);
+}
+
+.link:hover, .link.dark:hover {
+    background: #eeecec;
+    color: #2975ee;
+}
+
+.link.dark {
+    color: #ebe7e7;
+}
+
+.link.dark:hover {
+    background: rgb(37, 53, 75);
+}
+
+/* estilos de las imagenes */
+.img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.img.dark {
+    filter: brightness(0) saturate(100%) invert(93%) sepia(0%) saturate(7475%) hue-rotate(352deg) brightness(104%) contrast(88%);
+}
+
+.link:hover .img {
+    filter: brightness(0) saturate(100%) invert(49%) sepia(27%) saturate(3376%) hue-rotate(173deg) brightness(94%) contrast(83%);
+}
+
+.link.Page .img{
+    filter: brightness(0) saturate(100%) invert(49%) sepia(27%) saturate(3376%) hue-rotate(173deg) brightness(94%) contrast(83%);
+}

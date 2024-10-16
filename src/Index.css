@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img::selection {
+    display: none;
+}
+
+/* estilos del la barra de navegación */
+.body::-webkit-scrollbar {
+    width: 15px;
+    background: #ffffff;
+}
+
+.body::-webkit-scrollbar-thumb {
+    background: #dddddd;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    background-clip: content-box;
+}
+
+.body.dark::-webkit-scrollbar {
+    width: 15px;
+    background: #172b3b;
+}
+
+.body.dark::-webkit-scrollbar-thumb {
+    background: #3e629696;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    background-clip: content-box;
+}
+
+.container-header-menu {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
